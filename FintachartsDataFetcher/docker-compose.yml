@@ -1,0 +1,6 @@
+﻿services:
+  fintachartsdatafetcher.api:
+    image: fintachartsdatafetcher.api
+    build:
+      context: .
+      dockerfile: FintachartsDataFetcher.API/Dockerfile
